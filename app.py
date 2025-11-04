@@ -33,10 +33,8 @@ def convert():
     data = request.get_json()
     markdown_text = data.get('markdown', '')
     
-    # Process GitHub-flavored markdown
     markdown_text = process_github_markdown(markdown_text)
     
-    # Convert to HTML
     html = markdown.markdown(
         markdown_text,
         extensions=[

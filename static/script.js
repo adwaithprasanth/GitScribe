@@ -1,7 +1,6 @@
 const editor = document.getElementById('editor');
 const preview = document.getElementById('preview');
 
-// Load saved content
 const savedContent = localStorage.getItem('markdownContent');
 if (savedContent) {
     editor.value = savedContent;
@@ -26,12 +25,10 @@ async function updatePreview() {
     }
 }
 
-// Update preview on input with debouncing
 let timeout;
 editor.addEventListener('input', () => {
     clearTimeout(timeout);
     timeout = setTimeout(updatePreview, 300);
 });
 
-// Initial preview
 updatePreview();

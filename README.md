@@ -2,8 +2,7 @@
 
 GitHub styled markdown editor with live preview.
 
-
-
+<img width="1920" height="872" alt="demo" src="https://github.com/user-attachments/assets/117954ca-9d70-4208-ac7e-fee742c95c6b" />
 
 ## Contributing
 

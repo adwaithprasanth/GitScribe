@@ -16,6 +16,7 @@ Contributions are welcome! Here's how you can help:
 5. Open a Pull Request
 
 
+---
 
 <div align="center">
 
